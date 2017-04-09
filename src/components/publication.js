@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../styles/index.css';
-import 'bootstrap/dist/css/bootstrap.css';
 
 export default class Publication extends Component {
   render() {
