@@ -1,0 +1,200 @@
+@value colors: './colors.css';
+
+/* Font families */
+
+.adobeCaslonPro {
+  font-family: 'adobe-caslon-pro';
+}
+
+.museoSans {
+  font-family: 'museo-sans';
+}
+
+/* Modifiers */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.normalWeight {
+  font-weight: normal;
+}
+
+.boldWeight {
+  font-weight: bold;
+}
+
+.leftAligned {
+  text-align: left;
+}
+
+.centerAligned {
+  text-align: center;
+}
+
+.rightAligned {
+  text-align: right;
+}
+
+/* Text */
+
+.small-body {
+  font-family: 'museo-sans';
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  margin: 0 0;
+}
+
+.lead {
+  font-family: 'museo-sans';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: .8px;
+}
+
+.medium-lead {
+  font-family: 'museo-sans', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  margin: 2px 0 0;
+}
+
+.large-lead {
+  font-family: 'museo-sans', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+}
+
+.emphasis {
+  font-weight: 400;
+  color: #f39b9b;
+}
+
+.small {
+  line-height: 23px;
+}
+
+.bold {
+  font-weight: 400;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.bolder {
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.noMargin {
+	margin: 0;
+}
+
+.marginTop10 {
+  margin-top: 10px;
+}
+
+.marginTop20 {
+  margin-top: 20px;
+}
+
+.marginTop30 {
+  margin-top: 10px;
+}
+
+.marginTop40 {
+  margin-top: 20px;
+}
+
+.marginBtm10 {
+  margin-bottom: 10px;
+}
+
+.marginBtm20 {
+  margin-bottom: 20px;
+}
+
+.marginRight10 {
+  margin-right: 10px;
+}
+
+.marginBtm20 {
+  margin-right: 20px;
+}
+
+.marginLeft10 {
+  margin-left: 10px;
+}
+
+.marginLeft20 {
+  margin-left: 20px;
+}
+
+.mainHeadline {
+  font-family: 'adobe-caslon-pro';
+  font-size: 38px;
+  line-height: 46px;
+  letter-spacing: 2.6px;
+}
+
+.headline {
+  font-family: 'adobe-caslon-pro';
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 1.8px;
+}
+
+.smallHeadline {
+  font-family: 'adobe-caslon-pro';
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+}
+
+.smallSubCopy {
+  font-family: 'museo-sans';
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 1.2px;
+}
+
+.categoryTitle {
+  font-family: 'museo-sans';
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 1.6px;
+}
+
+.smallBody {
+  font-family: 'museo-sans';
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  line-height: 17px;
+}
+
+.small {
+  font-family: 'museo-sans';
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 0.4px;
+}
+
