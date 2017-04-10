@@ -28,11 +28,7 @@ class App extends Component {
             <Link to="/activity"> Activities </Link>
           </div>
           <p className="marginTop20 col-md-8 col-md-offset-2 col-xs-12 lead leftAligned">
-            I am a PhD candidate advised by Professor Rajiv Gupta at the University of California, Riverside.
-            I am also fortunate to work with Professor Guoqing (Harry) Xu  from University of California, Irvine.
-            My research interests lie in the broad area of Parallel & Distributed Computing including their
-            Programmability, Performance, Scalability & Fault Tolerance. I am part of the GRASP team which
-            focuses on fast and scalable solutions for graph processing.
+            I am a PhD candidate advised by Professor  at the University of California, Riverside.
           </p>
           {this.props.children}
         </div>
