@@ -12,7 +12,7 @@ export default class Home extends Component {
             the University of California, Riverside. My research is mainly focused on how FPGAs can help
             improve High Performance Computing (HPC) applications. I am currently working on developing
             FPGA-based Multithreading techniques for irregular applications such as data analytics and graph
-            processing.
+            processing. I did my Bachelors in Computer Science from University of Pune, India.
           </p>
         </div>
         <div className='text-center'>

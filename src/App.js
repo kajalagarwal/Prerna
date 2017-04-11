@@ -21,7 +21,7 @@ class App extends Component {
           <div className='hidden-xs emphasis smallHeadline marginTop20'>
             <Link to="/home" className='marginRight20 darkCoralText'> Home </Link>
             <Link to="/publication" className='marginRight20 darkCoralText'> Publications </Link>
-            <Link to="/research" className='marginRight20 darkCoralText'> Research Interests </Link>
+            <Link to="/research" className='marginRight20 darkCoralText'> Experience </Link>
             <Link to="/activity" className='marginRight20 darkCoralText'> Activities </Link>
           </div>
           {this.props.children}
