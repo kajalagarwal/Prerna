@@ -7,10 +7,10 @@ import Research from './components/research.js';
 import Publication from './components/publication.js';
 import './styles/index.css';
 import './styles/typography.css';
-import { Route, BrowserRouter, Redirect } from 'react-router-dom';
+import { Route, BrowserRouter, Redirect, hashHistory } from 'react-router-dom';
 
 ReactDOM.render((
-	<BrowserRouter history={history}>
+	<BrowserRouter history={hashHistory}>
 		<div>
 			<Route path="/" component={App} />
 			<Redirect from='/' to='/home'/>
