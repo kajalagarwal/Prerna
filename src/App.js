@@ -9,9 +9,6 @@ import Publication from './components/publication.js';
 import { Link } from 'react-router-dom';
 
 class App extends Component {
-  openLink = (link) => {
-    window.location.href = `/${link}`;
-  }
 
   render() {
     return (
@@ -21,15 +18,12 @@ class App extends Component {
             <img src={Prerna} className="App-logo" alt="logo" />
             <h2 className="headline uppercase">Prerna Budhkar</h2>
           </div>
-          <div className='hidden-xs emphasis smallHeadline'>
-            <Link to="/home"> Home </Link>
-            <Link to="/publication"> Publications </Link>
-            <Link to="/research"> Research Interests </Link>
-            <Link to="/activity"> Activities </Link>
+          <div className='hidden-xs emphasis smallHeadline marginTop20'>
+            <Link to="/home" className='marginRight20 darkCoralText'> Home </Link>
+            <Link to="/publication" className='marginRight20 darkCoralText'> Publications </Link>
+            <Link to="/research" className='marginRight20 darkCoralText'> Research Interests </Link>
+            <Link to="/activity" className='marginRight20 darkCoralText'> Activities </Link>
           </div>
-          <p className="marginTop20 col-md-8 col-md-offset-2 col-xs-12 lead leftAligned">
-            I am a PhD candidate advised by Professor  at the University of California, Riverside.
-          </p>
           {this.props.children}
         </div>
       </div>

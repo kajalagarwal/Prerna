@@ -8,6 +8,7 @@
     "react": "^15.5.3",
     "react-bootstrap": "^0.30.8",
     "react-dom": "^15.5.3",
+    "react-mailto": "^0.4.0",
     "react-router": "^4.0.0",
     "react-router-dom": "^4.0.0"
   },

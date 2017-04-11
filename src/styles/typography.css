@@ -10,6 +10,33 @@
   font-family: 'museo-sans';
 }
 
+/* Properties */
+
+a:hover {
+  color: #e68578;
+}
+
+a:focus {
+  color: #e68578;
+}
+
+.hoverPointer {
+  cursor: pointer;
+}
+
+.hoverPointer:hover {
+  text-decoration: underline;
+}
+
+/* text-styles */
+
+.darkCoralText {
+  color: #cc5242;
+}
+
+.darkGrayText {
+  color: normalGray;
+}
 /* Modifiers */
 
 .uppercase {
@@ -42,7 +69,7 @@
 
 /* Text */
 
-.small-body {
+.smallBody {
   font-family: 'museo-sans';
   font-weight: 300;
   font-size: 13px;
@@ -54,12 +81,12 @@
 .lead {
   font-family: 'museo-sans';
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   letter-spacing: .8px;
 }
 
-.medium-lead {
+.mediumLead {
   font-family: 'museo-sans', sans-serif;
   font-weight: 700;
   font-size: 22px;
@@ -68,7 +95,7 @@
   margin: 2px 0 0;
 }
 
-.large-lead {
+.largeLead {
   font-family: 'museo-sans', sans-serif;
   font-weight: 600;
   font-size: 24px;
@@ -86,7 +113,7 @@
 }
 
 .bold {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .semi-bold {
@@ -133,12 +160,32 @@
   margin-bottom: 20px;
 }
 
+.marginBtm40 {
+  margin-bottom: 40px;
+}
+
+.marginRight5 {
+  margin-right: 5px;
+}
+
 .marginRight10 {
   margin-right: 10px;
 }
 
+.marginRight20 {
+  margin-right: 20px;
+}
+
+.marginRight30 {
+  margin-right: 30px;
+}
+
 .marginBtm20 {
   margin-right: 20px;
+}
+
+.marginLeft5 {
+  margin-left: 5px;
 }
 
 .marginLeft10 {
