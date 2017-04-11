@@ -15,6 +15,10 @@ export default class Activity extends Component {
             FPGA-multi-threading to mask the memory latency and perform selection much faster than
             state of art approaches.
           </p>
+          <p className='smallHeadline marginTop40'>Languages Known</p>
+          <p className='lead bolder'>
+            first, second
+          </p>
         </div>
       </div>
     );

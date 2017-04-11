@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import './styles/index.css';
 import Prerna from './assets/images/prerna.jpeg';
 import 'bootstrap/dist/css/bootstrap.css';
-import Home from './components/home.js';
-import Activity from './components/activity.js';
-import Research from './components/research.js';
-import Publication from './components/publication.js';
 import { Link } from 'react-router-dom';
 
 class App extends Component {
@@ -20,9 +16,9 @@ class App extends Component {
           </div>
           <div className='hidden-xs emphasis smallHeadline marginTop20'>
             <Link to="/home" className='marginRight20 darkCoralText'> Home </Link>
-            <Link to="/publication" className='marginRight20 darkCoralText'> Publications </Link>
-            <Link to="/research" className='marginRight20 darkCoralText'> Experience </Link>
-            <Link to="/activity" className='marginRight20 darkCoralText'> Activities </Link>
+            <Link to='/publication' className='marginRight20 darkCoralText'> Publications </Link>
+            <Link to='/research' className='marginRight20 darkCoralText'> Experience </Link>
+            <Link to='/activity' className='marginRight20 darkCoralText'> Activities </Link>
           </div>
           {this.props.children}
         </div>
