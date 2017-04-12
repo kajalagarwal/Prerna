@@ -2,9 +2,14 @@ import React, { Component } from 'react';
 import '../styles/index.css';
 
 export default class Research extends Component {
+
+  hideDropdown() {
+    document.getElementById("myDropdown").classList.remove("show");
+  }
+
   render() {
     return (
-      <div className='row marginTop40'>
+      <div className='marginTop40' onClick={this.hideDropdown}>
         <div className='col-md-8 col-md-offset-2 leftAligned'>
           <p className='smallHeadline marginBtm20'>Work Experience</p>
           <span className="lead bolder">

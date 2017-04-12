@@ -39,10 +39,6 @@ a:focus {
 }
 /* Modifiers */
 
-.uppercase {
-  text-transform: uppercase;
-}
-
 .underline {
   text-decoration: underline;
 }
@@ -149,7 +145,7 @@ a:focus {
 }
 
 .marginTop40 {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .marginBtm10 {
@@ -158,6 +154,10 @@ a:focus {
 
 .marginBtm20 {
   margin-bottom: 20px;
+}
+
+.marginBtm20 {
+  margin-bottom: 30px;
 }
 
 .marginBtm40 {
@@ -178,10 +178,6 @@ a:focus {
 
 .marginRight30 {
   margin-right: 30px;
-}
-
-.marginBtm20 {
-  margin-right: 20px;
 }
 
 .marginLeft5 {
@@ -226,16 +222,9 @@ a:focus {
 
 .categoryTitle {
   font-family: 'museo-sans';
-  font-size: 13px;
+  font-size: 16px;
   line-height: 16px;
   letter-spacing: 1.6px;
-}
-
-.smallBody {
-  font-family: 'museo-sans';
-  font-size: 13px;
-  letter-spacing: 0.5px;
-  line-height: 17px;
 }
 
 .small {

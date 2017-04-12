@@ -3,9 +3,14 @@ import '../styles/index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 export default class Home extends Component {
+
+  hideDropdown() {
+    document.getElementById("myDropdown").classList.remove("show");
+  }
+
   render() {
     return (
-      <div className='row'>
+      <div className='row' onClick={this.hideDropdown}>
         <div className='col-md-12 marginBtm40'>
           <p className="marginTop20 col-md-8 col-md-offset-2 col-xs-12 lead leftAligned">
             Hi, My name is Prerna Budhkar and I am a PhD candidate advised by Dr. Walid A. Najjar at

@@ -2,9 +2,14 @@ import React, { Component } from 'react';
 import '../styles/index.css';
 
 export default class Publication extends Component {
+
+  hideDropdown() {
+    document.getElementById("myDropdown").classList.remove("show");
+  }
+
   render() {
     return (
-      <div className='row marginTop40'>
+      <div className='marginTop40' onClick={this.hideDropdown}>
         <div className='col-md-8 col-md-offset-2 leftAligned'>
           <span className="lead bolder">
             FPGA-Accelerated Group-by Aggregation Using Synchronizing Caches:

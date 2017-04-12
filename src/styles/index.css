@@ -7,21 +7,55 @@ body {
   background: lightestGray;
 }
 
-.App {
+.app {
   text-align: center;
   width: 100%;
 }
 
-.App-logo {
+.appLogo {
   height: 140px;
 }
 
-.App-header {
+.appHeader {
   height: auto;
   padding: 20px;
   width:100%;
 }
 
-.App-intro {
+.appIntro {
   font-size: large;
+}
+
+.dropbtn {
+  background-color: #cc5242;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  opacity: .8;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #ededed;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdownContent a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
