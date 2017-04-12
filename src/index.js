@@ -12,7 +12,9 @@ import { Route, BrowserRouter, Redirect, hashHistory } from 'react-router-dom';
 ReactDOM.render((
 	<BrowserRouter history={hashHistory}>
 		<div>
-			<Route path="/" component={App} />
+			<Route path="/" component={App}>
+				<Route path="*" component={Home} />
+			</Route>
 			<Redirect from='/' to='/home'/>
 	    <Route path="/home" component={Home} />
 	    <Route path="/activity" component={Activity} />
